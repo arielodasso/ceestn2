@@ -1,0 +1,115 @@
+/* CONFIGURACION ESTANDAR */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(2,38,91);
+    
+}
+
+.padre{
+    background-color: rgb(2,38,91);
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+    .container-fluid{
+        height: 70px;
+    }
+    .navbar-brand{
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
+        display: inline-flex;  
+        height: 80px;
+        margin-left: 2px;
+    }
+    .titulo{
+        display: inline-block;
+        color: black;
+        margin-right: 20px;
+    }
+    .titulo a{
+        display: inline;
+        text-decoration: none;
+        color: black;
+        margin-left: 0px;
+    }
+    .titulo :hover{
+        color: rgb(171, 156, 41);
+        transition: 0.7s;
+    }
+
+        h1{
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h2{
+            font-size: 15px;
+            font-weight: lighter;
+            font-style: italic;
+            margin: 0px;
+            padding: 0px;
+        }
+    .nav-item{
+        color: black;
+        flex: 5 1 auto;
+        font-size: 12px;
+        font-weight: 600;
+        display: inline-flex;
+        height: 40%;
+        align-items: center;
+        margin-right: 2px;
+        text-transform: uppercase;
+    }
+    #navbarSupportedContent{
+        margin-top: 55px;
+    }
+    .nav-item{
+        font-size: 15px;
+    }
+    #menu{
+        height: 100px;
+    }
+    #menu :hover{
+        color: rgb(171, 156, 41);
+        transition: 0.7s;
+    }
+        i{
+          padding: 7px;
+        }
+    .d-flex{
+       height: 45px;
+       width: 200px;
+       margin: 0px;
+      }
+      
+.login{
+    background-color: rgb(241, 206, 4);
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.botonNoticia{
+    
+}

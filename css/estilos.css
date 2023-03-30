@@ -1,0 +1,764 @@
+/* CONFIGURACION ESTANDAR */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(2,38,91);
+    
+}
+
+.padre{
+    background-color: rgb(2,38,91);
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+    .container-fluid{
+        height: 70px;
+    }
+    .navbar-brand{
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
+        display: inline-flex;  
+        height: 80px;
+        margin-left: 2px;
+    }
+    .titulo{
+        display: inline-block;
+        color: black;
+        margin-right: 20px;
+    }
+    .titulo a{
+        display: inline;
+        text-decoration: none;
+        color: black;
+        margin-left: 0px;
+    }
+    .titulo :hover{
+        color: rgb(171, 156, 41);
+        transition: 0.7s;
+    }
+
+        h1{
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h2{
+            font-size: 15px;
+            font-weight: lighter;
+            font-style: italic;
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar-nav{
+            background-color: white;
+            z-index: 1;
+            width: 100%;
+        }
+    .nav-item{
+        width: 100%;
+        /* background-color: white; */
+        z-index: 1;
+        color: black;
+        flex: 5 1 auto;
+        font-size: 12px;
+        font-weight: 600;
+        display: inline-flex;
+        height: 40%;
+        align-items: center;
+        margin-right: 2px;
+        text-transform: uppercase;
+    }
+    #navbarSupportedContent{
+        margin-top: 55px;
+    }
+    .nav-item{
+        font-size: 15px;
+    }
+    #menu{
+        height: 100px;
+    }
+    #menu :hover{
+        color: rgb(171, 156, 41);
+        transition: 0.7s;
+    }
+        i{
+          padding: 7px;
+        }
+    .d-flex{
+       height: 45px;
+       width: 200px;
+       margin: 0px;
+      }
+.login{
+    background-color: rgb(241, 206, 4);
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+                /* CARRUSEL */
+
+    .carousel-inner{
+        max-height: 25rem;
+    }
+
+    .carousel-caption h3{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+
+    }
+
+    .textoCarrusel{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 25px;
+        max-width: 50%;
+        font-style: normal;
+    }
+        .textoCarrusel h1{
+            color: white;
+            font-size: 70px;
+            font-style: normal;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+        }
+        .textoCarrusel b{
+            font-weight: 600;
+        }
+        .linea{
+            background-color: rgb(171, 156, 41 );
+            width: 500px;
+            height: 2px;
+            overflow: hidden;
+        }
+        .pCarrusel{
+            margin-top: 10px;
+            color: white;
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            max-width: 600px;
+        }
+        .verMas button{
+            margin-top: 15px;
+            background-color: rgb(0,114,176);
+            border-radius: 0.25em;
+            box-shadow: 3px 3px 10px black;
+            color: white;
+            padding: 0.25em 1em;
+            font-size: 15px;
+        }
+        .verMas button:hover{
+            background-color: rgb(2,38,91);
+            box-shadow: none;
+            transition: 1s;
+        }
+
+
+    /* Main */
+
+/* CONTENEDOR PRINCIPAL */
+
+.ContenedorPrincipal{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+
+}
+
+
+/*botones*/
+    
+    .contenedorBotones{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        gap:0px;
+        margin-left: 3rem;
+         margin-top: 3rem;
+         margin-bottom: 3rem;
+
+    }
+        .tableta {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            border: rgb(43 129 226)  2px solid;
+            border-radius: 120px;
+            background-color: transparent;
+            width: 230px;
+            height: 200px;
+            -webkit-border-radius: 70px;
+            -moz-border-radius: 70px;
+            -o-border-radius: 70px;
+            -ms-border-radius: 70px;
+            background: #0b2b67;
+
+            margin: 25px 15px;
+        }
+    
+        .Boton:hover{
+            background-color: rgba(2, 38, 200, 0.281);
+            color: rgb(255, 255, 255);
+            transition: 0.7s;
+            text-align: center;
+    
+        }
+    
+    
+        .Boton a:hover{
+            background-color: rgba(2, 38, 91, 0.068);
+            color: rgb(255, 255, 255);
+            transition: 0.5s;
+            text-align: center;
+        }
+    
+        .info {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    
+        .aca {
+            display: block;
+            margin-block-start: 1.33em;
+            margin-inline-end: 1.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            font-family: 'Oswald', sans-serif;
+            font-size: 22px;
+            text-align: center;
+
+        }
+
+
+
+/*galeria*/
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    gap: 30px;
+}
+
+.contenedor figure{
+    position:relative;
+    height: 200px;
+    cursor: pointer;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+   
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(2,38,91, 0.8);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+    margin-top: 30px;
+}
+.contenedor figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+/*FOOTER*/
+
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: rgb(8, 95, 172);
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 3vh;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        justify-content: space-between;
+    }
+
+
+
+    .redes{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .redes i{
+        margin-left:20px;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .redes i:hover{
+        color: black;
+        transition: 0.7s;
+    }
+
+    .direccion{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2px;
+    }
+
+    .telefono{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mapa iframe{
+        margin: 5px;
+        border-radius: 10%;
+    }
+
+    .copyright{
+        font-weight: 100;
+        margin-top: 15px;
+    }
+
+
+
+
+
+
+/*FORMULARIO DE SECCIÓN RECLAMOS*/
+.tituloReclamo{
+    margin-top: 30px;
+    margin-left: 15px;
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+    .h2{
+        font-size: 15px;
+        color: white;
+        margin-left: 15px;
+        font-weight: 100;
+    }
+form{
+    width: 80%;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
+}
+
+    label{
+        display: block;
+        margin-bottom: 3px;
+        margin-top: 15px;
+    }
+    .input{
+        color: white;
+        background: rgb(2,38,91);
+        background: linear-gradient(90deg, rgba(2,38,91,1) 0%, rgba(0,114,176,1) 100%);
+        border-radius: 10px;
+        border: 2px solid rgb(0,114,176);
+        height: 30px;
+        padding: 10px;
+    }
+        .input:focus, .textarea:focus{
+            outline: none;
+            color: white;
+        }
+    .contenedorForm,.contenedorReclamo{
+        display: inline-block;
+        margin: 0px 40px;
+    }
+        .textarea{
+            font-family: 'Open Sans', sans-serif;
+            height: 200px;
+            width: 300px;
+            resize: none;
+            background-color: rgb(2,38,91);
+            border-radius: 10px;
+            border: 2px solid rgb(0,114,176);
+            color: white;
+            padding: 10px;
+            background: rgb(2,38,91);
+            background: linear-gradient(90deg, rgba(2,38,91,1) 0%, rgba(0,114,176,1) 100%);
+        }
+            .textarea::-webkit-scrollbar{
+                background-color: rgb(2,38,91);
+
+                border-radius: 10px;
+                color: white;
+                -webkit-appearance: none;
+            }
+            .textarea::-webkit-scrollbar-thumb{
+                background-color: white;
+                border-radius: 10px;
+            }
+
+
+    .submit{
+        margin-top: 25px;
+        background-color: rgb(0,114,176);
+        border-radius: 0.25em;
+        box-shadow: 3px 3px 10px black;
+        color: white;
+        padding: 0.25em 1em;
+        font-size: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .submit:hover{
+        background-color: rgb(2,38,91);
+        box-shadow: none;
+        transition: 1s;
+    }
+
+
+
+
+
+/*FORMULARIO DE SECCIÓN Login*/
+.form-login{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:;
+}
+.formLogin{
+    box-shadow: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding: 20px;
+}
+
+/*SECCIÓN INTEGRANTES*/
+.lista{
+    color: white;
+    margin: 50px;
+    font-size: 1.5em;
+}
+.cargo{
+    margin-top: 20px;
+}
+
+
+/*SECCIÓN PROPUESTAS*/
+.propuestas{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+
+
+/*MEDIA QUERYS*/
+
+
+        @media all and (max-width:800px){
+            .section{
+                display: flex;
+                flex-flow: column nowrap;
+            }
+            .aside{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+            }
+            .menu .titulo{
+                width: 40vh;
+                margin-right: 2px;
+            }
+            .titulo h1{
+                font-size: 20px;
+            }
+            .titulo h2{
+                font-size: 15px;
+            }
+            .item{
+                font-size: 12px;
+                margin: 0px 2px;
+            }
+            .menu .nav{
+                margin-left: 2px;
+            }
+            .carousel-inner{
+                height: 50vh;
+            }
+            .textoCarrusel h1{
+                font-size: 8vh;
+            }
+            .linea{
+                width: 400px;
+            }
+            .textoCarrusel .pCarrusel{
+                font-size: 75%;
+                width: 400px;
+            }
+            .verMas button{
+                font-size: 15px;
+                padding: 5px;
+            }
+            .texto_principal .tituloReclamo{
+                font-size: 40px;
+            }
+            .texto_principal .h2{
+                font-size: 12px;
+            }
+            form{
+                width: 600px;
+                height: 300px;
+                padding: 10px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            label{
+                display: block;
+                margin-bottom: 3px;
+                margin-top: 10px;
+            }
+            .input{
+                height: 20px;
+                padding: 10px;
+            }
+            .contenedorForm,.contenedorReclamo{
+                margin: 0px 10px;
+            }
+                .textarea{
+                    height: 150px;
+                    width: 250px;
+                    padding: 5px;
+                }         
+            .submit{
+                margin-top: 20px;
+                padding: 10px;
+                font-size: 10px;
+            }
+
+        }
+
+        @media all and (max-width:600px){
+            .menu{
+                display: flex;
+                flex-flow: column nowrap;
+                height: auto;
+            }
+            .titulo{
+                text-align: center;
+                margin-top: 20px;
+            }
+            .aside{
+                display: flex;
+                flex-flow: column nowrap;
+            }
+            .item{
+                width: 100%;
+                font-size: 15px;
+                padding: 0px;
+                margin: 5px 0px;
+                display: inline;
+            }
+            .logo{
+                visibility: hidden;
+                display: none;
+            }
+            img{
+                height: 60vh;
+            }
+            .nav{
+                display: inline-block;
+                margin: 10px 0px;
+            }
+            .carousel-inner{
+                height: 60vh;
+            }
+            .textoCarrusel h1{
+                font-size: 7vh;
+            }
+            .linea{
+                width: 350px;
+            }
+            .textoCarrusel .pCarrusel{
+                font-size: 80%;
+                width: 350px;
+            }
+            .verMas button{
+                font-size: 12px;
+                padding: 5px;
+            }
+            form{
+                width: 600px;
+                height: 300px;
+                padding: 10px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            label{
+                display: block;
+                margin-bottom: 3px;
+                margin-top: 10px;
+            }
+            .input{
+                height: 20px;
+                padding: 10px;
+            }
+            .contenedorForm,.contenedorReclamo{
+                margin: 0px 10px;
+            }
+                .textarea{
+                    height: 150px;
+                    width: 250px;
+                    padding: 5px;
+                }         
+            .submit{
+                margin-top: 20px;
+                padding: 10px;
+                font-size: 10px;
+            }
+            .footer .redes, .footer .direccion, .footer .telefono{
+                font-size: 15px;
+                margin: 5px 0px;
+            }
+        }
+
+        @media all and (max-width:400px){
+            .titulo{
+                text-align: center;
+                margin: 15px 0px;
+            }
+            .aside{
+                display: flex;
+                flex-flow: column nowrap;
+            }
+            .item{
+                width: 100%;
+                font-size: 12px;
+                padding: 0px;
+                margin: 5px 0px;
+            }
+            .logo{
+                visibility: hidden;
+                display: none;
+            }
+            img{
+                height: 50vh;
+            }
+            .carousel-inner{
+                height: 50vh;
+            }
+            .textoCarrusel h1{
+                font-size: 5vh;
+            }
+            .linea{
+                width: 300px;
+            }
+            .textoCarrusel .pCarrusel{
+                font-size: 70%;
+                width: 300px;
+            }
+            .verMas button{
+                font-size: 10px;
+                padding: 5px;
+            }
+            .footer .redes, .footer .direccion, .footer .telefono{
+                font-size: 12px;
+                margin: 2px 0px;
+            }
+        }
+    
+        @media (max-width: 800px){
+            .navbar-brand{
+                display: none;
+            }
+            .formLogin{
+                display: flex;
+                flex-flow: column nowrap;
+            }
+            .ContenedorPrincipal{
+                display: flex;
+                flex-flow: column nowrap;
+            }
+            .contenedor{
+                display: flex;
+                flex-flow: column nowrap;
+            }
+            .mainpropuestas{
+                display: flex;
+                flex-flow: column nowrap;
+            }
+            .formLogin{
+                display: flex;
+                flex-flow: column nowrap;
+            }
+        }
